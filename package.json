@@ -1,0 +1,23 @@
+{
+  "name": "clb-sssanode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/sssa.js"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "uglify-js": "^2.6.0"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.5",
+    "get-random-values": "^1.1.1",
+    "global": "^4.3.0",
+    "utf-8": "^1.0.0"
+  }
+}
