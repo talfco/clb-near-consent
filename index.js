@@ -46,7 +46,7 @@ async function main() {
     const sharesreduced = shares.slice(0,4)
     secret = sssa.combine(sharesreduced)
     logger("Got back secret ("+sharesreduced.length+"):"+secret)
-    const storage = new Web3Storage({token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEEzNzFlOUMwOWZiMjhjMTVkRDhGMUI4NTQwM2YyN2ZlOTlFMkU1MzQiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2MzA0NDQ1NTgxMjgsIm5hbWUiOiJTU1NBIn0.zA1f4fhbwntvVW3RtKGeowjHK29rYHf0fM7edwwpewI"} );
+    const storage = new Web3Storage({token: ""} );
     const cid = await storage.put(files)
     console.log('Content added with CID:', cid)
 
